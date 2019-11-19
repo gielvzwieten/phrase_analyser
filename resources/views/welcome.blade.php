@@ -97,7 +97,6 @@
                         $uniqueCharsPushedToArray = [];
 
                         for($i = 0; $i < strlen($phrase); $i++)
-                        //for($i = strlen($phrase)-1; $i >0 ; $i--)
                         {
                             for($j = 0; $j < strlen($uniqueCharsInPhrase); $j++) {
                                 if($phrase[$i] == $uniqueCharsInPhrase[$j] && !in_array($phrase[$i], $uniqueCharsPushedToArray)){
